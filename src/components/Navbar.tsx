@@ -10,13 +10,13 @@ const Navbar = () => {
           <p className="text-sm">trajce.p@live.com</p>
         </div>
         <div className="flex gap-4">
-          <a href="#">
+          <a href="https://github.com/prodanov17">
             <GitHubIcon />
           </a>
-          <a href="#">
+          <a href="https://www.linkedin.com/in/trajche-prodanov-360274280/">
             <LinkedInIcon />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/trajceprodanov/">
             <InstagramIcon />
           </a>
         </div>
