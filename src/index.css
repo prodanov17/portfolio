@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Outfit, Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background: rgb(27, 27, 27);
+  background: linear-gradient(
+    27deg,
+    rgba(27, 27, 27, 1) 0%,
+    rgba(13, 13, 13, 1) 100%
+  );
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  height: max-content;
+  width: 100%;
+}
+
+.button-bg {
+  background: rgb(72, 150, 184);
+  background: linear-gradient(
+    252deg,
+    rgba(72, 150, 184, 1) 0%,
+    rgba(34, 80, 95, 1) 30%,
+    rgba(16, 31, 36, 1) 100%
+  );
+}
+
+.pattern {
+  background: rgb(45, 45, 45);
+  background: linear-gradient(
+    225deg,
+    rgb(32, 32, 32) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.dots {
+  opacity: 1;
+  background-image: radial-gradient(#111111 2px, transparent 2px),
+    radial-gradient(#111111 2px, transparent 2px);
+  background-size: 22px 22px;
+  background-position: 0 0, 11px 11px;
+}
+
+.bg-element {
+  position: fixed;
+  z-index: -10;
+  width: 257px;
+  height: 257px;
+  filter: blur(225px);
+}
