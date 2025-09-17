@@ -10,6 +10,7 @@ const ProjectCard = ({ title, desc, tags, img, link }: Props) => {
   return (
     <a
       href={link}
+      target={'_blank'}
       className="rounded-xl overflow-hidden shadow-xl bg-neutral-850 w-[85vw] sm:w-full mx-auto mt-8 max-w-[400px] group cursor-pointer transition-colors hover:bg-neutral-800"
     >
       <div className="overflow-hidden h-[180px] ">

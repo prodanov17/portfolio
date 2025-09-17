@@ -1,4 +1,3 @@
-import Tilt from "react-parallax-tilt";
 
 interface Props {
   title: string;
@@ -10,7 +9,6 @@ interface Props {
 
 const EducationCard = ({ title, time, desc, className, innerClass }: Props) => {
   return (
-    <Tilt tiltReverse={true} tiltMaxAngleX={15} tiltMaxAngleY={15}>
       <div
         className={`px-6 py-4 w-min min-w-[250px] mx-auto bg-neutral-850 rounded-xl ${className}`}
       >
@@ -21,7 +19,6 @@ const EducationCard = ({ title, time, desc, className, innerClass }: Props) => {
         <h3 className="text-lg text-neutral-200">{title}</h3>
         <p className="text-sm text-neutral-600 mt-4">{desc}</p>
       </div>
-    </Tilt>
   );
 };
 

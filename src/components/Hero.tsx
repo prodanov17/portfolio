@@ -6,11 +6,11 @@ const Hero = () => {
           <img
             src="https://imgur.com/axN1oyX.png"
             alt=""
-            className="block object-cover object-right grayscale w-full h-full"
+            className="block object-cover object-right grayscale w-full h-full rounded-full"
           />
         </div>
         <p className="text-sm text-neutral-400 text-center">
-          Hi, I'm Trajche 👋🏻
+          Hi, I'm Trajche 👋
         </p>
       </div>
       <h1 className="text-3xl text-center leading-9 max-w-[466px] px-4">
